@@ -1,13 +1,93 @@
 *{
   margin: 0px;
   padding: 0px;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  overflow-x: hidden;
 }
 
 nav{
   height: 43px;
-  padding: 30px 0px 30px 36px;
+  padding: 30px 00px 30px 30px;
   box-shadow: 0px 2.98px 7.45px rgba(0,0,0,0.1);
 }
 nav img{
   width: 120px;
 }
+.hero-component{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 0px 30px 0px 30px;
+}
+.hero-component img{
+  background-position : center;
+  margin-top: 30px;
+}
+
+.hero-component h1{
+  margin-top: 40px;
+  margin-right: auto;
+  font-size: 44px;
+  font-weight: 700;
+}
+.hero-component p{
+  margin-right: auto;
+  font-size: 20px;
+  font-weight: 300;
+  width: 40rem;
+}
+.cards-parent{
+  padding: 0px 30px 0px 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.card{
+  width: 196px;
+  height: 355px;
+  /* background-color: blue; */
+  margin: 0px 15px 0px 15px;
+}
+.card:nth-child(1){
+  margin-left: 0px;
+}
+
+.card .img{
+  width: 196px;
+  height: 255px;
+  border-radius: 16px;
+}
+.card .img .status{
+  padding: 5px;
+  background-color: white;
+  width: max-content;
+  left: 10px;
+  top: 10px;
+  position: relative;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.details{
+  margin-top: 8px;
+}
+
+.details .gray{
+  color: grey;
+}
+.details .price{
+  font-weight: 600;
+}
+
+.details .price-span{
+  font-weight: 300;
+}
+
+.cards-parent{
+  display: flex;
+  /* justify-content: space-between; */
+}
+
